@@ -26,6 +26,10 @@ MySQL Workbench est vraiment pratique puisque son interface user-friendly permet
 
 Une fois Workbench ouvert, il faudra configurer une nouvelle connexion (qui nécessite donc d'avoir MySQL installé). Il faudra ensuite créer un nouveau modèle de données (équivalent d'une schéma de base de données), vous pourrez ensuite ajouter toutes les tables qu'il faut.
 
+![alt text](https://www.supinfo.com/articles/resources/158424/1072/1.png "Logo Title Text 1")
+
 ### Ajouter et remplir les tables
 
 Une fois qu'une table a été ajouté, Workbench permet d'ajouter un à un des champs aux tables, puis de les typer (lINT, VARCHAR, BOOL) en leur donnant une longueur maximale. Il est intéressant de noter que le typage doit être correctement choisi. Inutile de donner une longueur trop importante au champ "âge" de votre table "utilisateurs", un nombre à 2 chiffres suffira (INT(2)). La case AI signifie "Auto Increment", c'est à dire que si votre champ est de type INT, à chaque nouvel enregistrement dans la table, le champs de type INT sera incrémenté de 1 par rapport à la dernière valeur. La case UN permet d'indiquer si vous souhaitez ajouter une contrainte d'unicité à votre champ. Cochez-là et vous ne pourrez pas avoir deux enregistrements dont l'un des champs a une valeur identique à celui d'un autre enregistrement de la table.
+
+![alt text](https://www.supinfo.com/articles/resources/158424/1072/2.png "Logo Title Text 1")
